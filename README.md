@@ -56,6 +56,14 @@ docker run --name pg -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -e POSTGRES
  docker start api-postgres
 ````
 
+4. <strong>Rode o script para iniciar o banco de dados</strong>
+
+````bash
+docker exec -i pg psql -U root -d api_database < src/database/schema.sql
+
+````
+
+
 <h4>4. Inicie a aplicação</h4>
 
 ```bash
