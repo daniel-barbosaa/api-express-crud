@@ -56,3 +56,57 @@ docker run --name pg -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -e POSTGRES
  docker start api-postgres
 ````
 
+<h4>4. Inicie a aplicação</h4>
+
+```bash
+yarn dev
+````
+
+<h2>Como usar</h2>
+
+<strong>Endpoints disponíveis</strong>
+
+<p>A API oferece os seguintes endpoints:</p>
+
+```bash
+## **Contatos**
+
+- `GET /contacts` - Lista todos os contatos
+- `GET /contacts/:id` - Busca um contato por ID
+- `POST /contacts` - Cria um novo contato
+- `PUT /contacts/:id` - Atualiza um contato
+- `DELETE /contacts/:id` - Remove um contato
+
+---
+
+## **Categorias**
+
+- `GET /categories` - Lista todas as categorias
+- `GET /categories/:id` - Busca uma categoria por ID
+- `POST /categories` - Cria uma nova categoria
+- `PUT /categories/:id` - Atualiza uma categoria
+- `DELETE /categories/:id` - Remove uma categoria
+```
+
+<h3>Scripts Disponíveis</h3>
+
+```bash
+yarn dev: Inicia o servidor em modo de desenvolvimento com nodemon.
+```
+
+<h2>Tecnologias utilizadas</h2>
+
+- <strong>Node.js</strong> - Plataforma para execução do JavaScript no backend.
+- <strong>Express</strong> - Framework para construção de APIs.
+- <strong>PostgreSQL</strong> - Banco de dados relacional.
+- <strong>Docker</strong> - Para containerização do banco de dados.
+- <strong>Insomnia</strong> - Ferramenta para teste de APIs.
+
+<h2>Contribuição</h2>
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+
+
+
+
