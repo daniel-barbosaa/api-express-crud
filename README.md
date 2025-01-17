@@ -16,7 +16,7 @@ A API é parte de uma aplicação que será desenvolvida futuramente. Para testa
   
 ```bash
 git clone https://github.com/daniel-barbosaa/api-express-crud.git
-cd api-node-with-express
+cd api-express-crud
 ````
 
 <h4>2. Instale as dependências</h4>
